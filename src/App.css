@@ -1,3 +1,7 @@
+html{
+    font-size: 62.5%;
+}
+
 .container {
     background-color: #c00025;
     width: 100%;
@@ -8,7 +12,7 @@
 }
 .display {
     margin-top: 25px;
-    height: 100px;
+    height: 120px;
     width: 450px;
     border-radius: 50px;
     color: white;
@@ -19,4 +23,26 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+    margin-bottom: 20px;
+}
+
+button{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: rgb(42, 42, 136);
+    color:white;
+    font-size: 3rem;
+    margin: 10px;
+    box-shadow: 0px 5px 5px black;
+
+}
+
+.logo-container{
+    margin: 25px;
+}
+
+.App{
+    margin: 10px;
+}
